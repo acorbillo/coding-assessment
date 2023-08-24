@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nokia Sample Page</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <div>
+            <a href="#">
+                <img src="https://www.nokia.com/themes/custom/onenokia_reskin/logo.svg" alt="nokia-logo" class="logo">
+            </a>
+        </div>
+        <nav class="links">
+            <a href="#products">Products</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+
+        <!-- Hidden Menu button and menu -->
+        <img src="./img/menu.png" alt="" class="menu-btn" id="menu-btn" onclick="toggleMenu()">
+        <nav class="menu" id="menu" onclick="toggleMenu()">
+            <img src="./img/close.png" alt="" id="close-menu-btn">
+            <a href="#products">Products</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-intro">
+            <h1>We are Nokia</h1>
+            <p>At Nokia, we create technology that helps the world act together.</p>
+            <a href="https://www.nokia.com/">Learn More</a>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <div>
+            <h2 class="title">Our Products</h2>
+        </div>
+        <div class="product-grid">
+            <div class="product">
+                <a href="#">
+                    <img src="https://www.nokia.com/sites/default/files/styles/c23_desktop_grid/public/2023-04/bss-oss_small.jpg.webp" alt="product-image" class="product-image">
+                </a>
+                <p class="product-header">BSS/OSS</p>
+                <p class="product-description">Software solutions for network service providers.</p>
+            </div>
+            <div class="product">
+                <a href="#">
+                    <img src="https://www.nokia.com/sites/default/files/styles/c23_desktop_grid/public/2022-02/Nokia%20Core%20Networks_0.jpg.webp" alt="product-image" class="product-image">
+                </a>
+                <p class="product-header">Core Networks</p>
+                <p class="product-description">Differentiate your business and explore new opportunities.</p>
+            </div>
+            <div class="product">
+                <a href="#">
+                    <img src="https://www.nokia.com/sites/default/files/styles/c23_desktop_grid/public/2021-12/service-header.jpg.webp" alt="product-image" class="product-image">
+                </a>
+                <p class="product-header">Data Center</p>
+                <p class="product-description">Build scalable and distributed data centers to embrace the cloud native era.</p>
+            </div>
+            <div class="product">
+                <a href="#">
+                    <img src="https://www.nokia.com/sites/default/files/styles/c23_desktop_grid/public/2023-07/oi-industry-header-1.jpg.webp" alt="product-image" class="product-image">
+                </a>
+                <p class="product-header">Developer Resources</p>
+                <p class="product-description">Nokia resources for developers.</p>
+            </div>
+            <div class="product">
+                <a href="#">
+                    <img src="https://www.nokia.com/sites/default/files/styles/c23_desktop_grid/public/2021-12/ResrcID28345_GettyImages-1067263546-hgh.jpg.webp" alt="product-image" class="product-image">
+                </a>
+                <p class="product-header">Fixed Networks</p>
+                <p class="product-description">Bring ultra-broadband faster and at the right cost.</p>
+            </div>
+            <div class="product">
+                <a href="#">
+                    <img src="https://www.nokia.com/sites/default/files/styles/c23_desktop_grid/public/2022-01/ResrcID953_GettyImages-556419437-ppt.jpg.webp" alt="product-image" class="product-image">
+                </a>
+                <p class="product-header">Internet of Things</p>
+                <p class="product-description">Maximize the potential of your connected things.</p>
+            </div>
+            <div class="product">
+                <a href="#">
+                    <img src="https://www.nokia.com/sites/default/files/styles/c23_desktop_grid/public/2021-12/ResrcID29234_GettyImages-560260725-hgh.jpg.webp" alt="product-image" class="product-image">
+                </a>
+                <p class="product-header">IP Networks</p>
+                <p class="product-description">Build scalable, secure, and adaptive networks.</p>
+            </div>
+            <div class="product">
+                <a href="#">
+                    <img src="https://www.nokia.com/sites/default/files/styles/c23_desktop_grid/public/2022-09/mobile-networks-wayfinder_small_0.jpg.webp" alt="product-image" class="product-image">
+                </a>
+                <p class="product-header">Mobile Networks</p>
+                <p class="product-description">Scalable coverage and capacity.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-text">
+            <h2 class="about-title">About Us</h2>
+            <p class="about-description" id="short-description">At Nokia, we are more than just a company; we are a global community of innovators, problem solvers, and technology enthusiasts. With a history spanning over a century, we have continually embraced change and embraced new opportunities to redefine what's possible in the world of technology...</p>
+
+            <!-- This is the hidden text description -->
+            <p class="about-description more-description" id="long-description">At Nokia, we are more than just a company; we are a global community of innovators, problem solvers, and technology enthusiasts. With a history spanning over a century, we have continually embraced change and embraced new opportunities to redefine what's possible in the world of technology. Our commitment to connectivity has been the cornerstone of our journey. From our early roots in the paper industry to pioneering mobile communications, we have consistently led the charge in connecting people and things. Today, we stand proudly at the forefront of the digital era, driving the transformation of industries and societies through our cutting-edge solutions.</p>
+            <a href="#about" class="more-about" id="more-about">Read More</a>
+        </div>
+    </section>
+
+    <section class="call-to-action" id="call-to-action">
+        <div>
+            <div class="call-to-action-text">
+                <h2>Nokia Products</h2>
+                <p>We provide a broad range of products, from the hardware components of networks used by communication service providers and increasingly by customers in other select verticals, to software solutions, as well as services to plan, optimize, implement, run and upgrade networks.</p>
+                <a href="#">Buy Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div>
+            <h2 class="title">Contact Us</h2>
+            <form action="" class="contact-form">
+                <input type="text" placeholder="Name">
+                <input type="email" name="" id="" placeholder="Email">
+                <textarea name="" id="" cols="30" rows="10">Message</textarea>
+                <input type="submit" value="Submit" class="submit-btn btn">
+            </form>
+        </div>
+    </section>
+
+    <script src="./script.js">
+
+    </script>
+</body>
+</html>
