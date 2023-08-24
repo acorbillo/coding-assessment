@@ -43,5 +43,3 @@ This is a simple interactive to-do list application that allows users to add, re
 - `styles.css`: The CSS file that styles the application interface.
 - `script.js`: The JavaScript file that handles the application's interactivity and local storage.
 - `README.md`: This file, providing information about the application.
-
-Feel free to customize the README to match your preferences and provide any additional information you'd like to include.
